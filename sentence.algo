@@ -1,0 +1,20 @@
+ALGORITHM algorithm_name
+step 1: input three Variables:
+// sentence_length = 0 (counter for the number of characters, including the period).
+// word_count = 1 (start at 1 assuming that the words are separated by a single space)).
+// vowel_count = 0 (counter for the vowels).
+
+step 2:Read Sentence:
+// Read the sentence character by character.
+
+step 3: determine each character
+// For each character:
+// Increment sentence_length.
+// If the character is a space, increment word_count.
+// If the character is a vowel (a, e, i, o, u), increment vowel_count.
+
+step 4:Stop at the Period:
+// If the character is a period (.), stop reading further.
+
+step 5:Output
+// Print or return sentence_length, word_count, and vowel_count.
